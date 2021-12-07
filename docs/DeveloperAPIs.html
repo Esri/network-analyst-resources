@@ -1,0 +1,406 @@
+<!-- Top part of the Network Analyst resources webpage, including navigation bar.-->
+<!doctype html>
+<!--[if lt IE 9]>  <html lang="en" class="ie lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>     <html lang="en" class="ie ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Developer APIs | ArcGIS Network Analyst</title>
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <!-- get calcite-web css from the cdn (use latest version) -->
+    <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.7/css/calcite-web.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--[if lt IE 9]>
+      <script src="/assets/javascripts/libs/selectivizr.js"></script>
+      <script src="/assets/javascripts/libs/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper trailer-1">
+
+      <header class="sub-nav"  id="subnav">
+        <div class="grid-container">
+          <div class="column-24">
+            <h1 class="sub-nav-title text-white"><span class="banner-title">ArcGIS Network Analyst Resources</span></h1>
+            <select class="phone-show select-full trailer-half js-select-nav">
+<option value="./index.html">Overview</option>
+<option value="./ArcGISPro.html">ArcGIS Pro</option>
+<option value="./ArcGISOnline.html">ArcGIS Online</option>
+<option value="./ArcGISEnterprise.html">ArcGIS Enterprise</option>
+<option value="./DeveloperAPIs.html" selected>Developer APIs</option>
+<option value="./Navigator.html">Navigator</option>
+<option value="./ArcMap.html">ArcMap</option>
+<option value="./Data.html">Data</option>
+
+      </select>
+      <nav class="sub-nav-list phone-hide" aria-labelledby="subnav">
+<a class="sub-nav-link" href="./index.html">Overview</a>
+<a class="sub-nav-link" href="./ArcGISPro.html">ArcGIS Pro</a>
+<a class="sub-nav-link" href="./ArcGISOnline.html">ArcGIS Online</a>
+<a class="sub-nav-link" href="./ArcGISEnterprise.html">ArcGIS Enterprise</a>
+<a class="sub-nav-link is-active" href="./DeveloperAPIs.html">Developer APIs</a>
+<a class="sub-nav-link" href="./Navigator.html">Navigator</a>
+<a class="sub-nav-link" href="./ArcMap.html">ArcMap</a>
+<a class="sub-nav-link" href="./Data.html">Data</a>
+
+      </nav>
+          </div>
+        </div>
+      </header>
+  <div class="grid-container leader-2">
+
+  <!-- main content - Developer APIs -->
+  <div class="column-22 pre-1 post-1">
+
+    <h2 class="leader-1">Network Analyst Developer APIs</h2>
+
+    <p>The ArcGIS platform has multiple APIs to access Network Analyst functionality. The various APIs support a
+      variety of workflows depending upon the area of the platform being used. A general overview of Network Analyst
+      developer functionality can be found at in the "Find routes and directions" section of the
+      <a href="https://developers.arcgis.com/documentation/mapping-apis-and-services/routing/" rel="noopener" target="_blank">
+      developer documentation</a>.
+    </p>
+
+    <h3>JavaScript APIs</h3>
+    <p>Web applications can be built using any of several APIs.  The ArcGIS API for JavaScript provides a number of
+      classes to assist in accessing network analysis services.  When using the Esri Leaflet, Mapbox GL, or the 
+      OpenLayers JavaScript libraries, network analysis services can be accessed using the ArcGIS REST JS modules.
+      (See also the REST section below.)
+    </p>
+
+    <h4>Official documentation</h4>
+    <ul>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/javascript/latest/find-a-route-and-directions" rel="noopener" target="_blank">
+          ArcGIS API for JavaScript</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/esri-leaflet/route-and-directions/find-a-route-and-directions" rel="noopener" target="_blank">
+          Esri leaflet API</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/mapbox-gl-js/route-and-directions/find-a-route-and-directions" rel="noopener" target="_blank">
+          Mapbox GL JS API</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/openlayers/route-and-directions/find-a-route-and-directions" rel="noopener" target="_blank">
+          OpenLayers API</a></li>
+    </ul>
+
+    <h4>Presentations</h4>
+    <ul>
+      <li>
+        Building Web Apps with Advanced Routing Capabilities (DevSummit 2021)
+        <ul>
+          <li>
+            <!--video icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16" aria-label="Video"><path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/></svg>
+            <a href="https://www.youtube.com/watch?v=RPNzaaAmV4I" target="_blank" rel="noopener">
+            video</a>
+          </li>
+          <li>
+            <!--Download icon--><span class="icon-ui-download" aria-label="Download"></span>
+            <a href="https://www.esriurl.com/ds21rs-jsapi" target="_blank" rel="noopener">presentation materials</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h4>Examples</h4>
+    <ul>
+      <li>
+        <!--Code icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-code" viewBox="0 0 16 16"><path d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/></svg>
+        <a href="https://github.com/Esri/maps-app-javascript" target="_blank" rel="noopener">
+          Maps App</a> sample app using the ArcGIS API for JavaScript
+      </li>
+      <li>
+        <!--Code icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-code" viewBox="0 0 16 16"><path d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/></svg>
+        <a href="https://github.com/Esri/nearby-javascript" target="_blank" rel="noopener">
+          Nearby Places</a> sample app using the ArcGIS API for JavaScript
+      </li>
+      <li>
+        <!--Code icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-code" viewBox="0 0 16 16"><path d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/></svg>
+        <a href="https://developers.arcgis.com/javascript/latest/sample-code/widgets-directions" target="_blank" rel="noopener">
+          Directions widget</a> sample code using the ArcGIS API for JavaScript
+      </li>
+    </ul>
+
+
+    <h3>REST - ArcGIS REST JS and ArcGIS API for Python</h3>
+    <p>The ArcGIS network analysis services are accessible through a REST API and can be used to perform analysis
+      against ArcGIS Online or ArcGIS Enterprise services.  You can easily interact with these REST endpoints via
+      modules provided for both JavaScript (ArcGIS REST JS) or Python (ArcGIS API for Python).  They support both
+      map services with network analysis capability and network analysis geoprocessing services.
+    </p>
+
+    <h4>Official documentation</h4>
+    <ul>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/rest/network/api-reference/overview-of-network-analysis-services.htm" rel="noopener" target="_blank">
+          ArcGIS Online Routing Service REST API</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/rest/services-reference/enterprise/an-overview-of-routing-services.htm" rel="noopener" target="_blank">
+          ArcGIS Enterprise Routing Service REST API</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://esri.github.io/arcgis-rest-js/api/routing" rel="noopener" target="_blank">
+          Javascript: ArcGIS REST JS routing API</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/arcgis-rest-js/route-and-directions/find-a-route-and-directions" rel="noopener" target="_blank">
+          Javascript: ArcGIS Rest JS routing guide</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/python/api-reference/arcgis.network.toc.html#networklayer" rel="noopener" target="_blank">
+          ArcGIS API for Python module</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/python/api-reference/arcgis.network.toc.html#submodules" rel="noopener" target="_blank">
+          ArcGIS API for Python submodules</a></li>
+    </ul>
+
+    <h4>Presentations</h4>
+    <ul>
+      <li>
+        Python: Performing Transportation Network Analysis (DevSummit 2021)
+        <ul>
+          <li>
+            <!--video icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16" aria-label="Video"><path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/></svg>
+            <a href="https://www.esri.com/videos/watch?videoid=TZ5aYTcDvME" target="_blank" rel="noopener">
+            video</a>
+          </li>
+          <li>
+            <!--Download icon--><span class="icon-ui-download" aria-label="Download"></span>
+            <a href="https://arcg.is/0bnver0" target="_blank" rel="noopener">
+              presentation materials</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <!--video icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16" aria-label="Video"><path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/></svg>
+        <a href="https://youtu.be/WqYbzPHF5Is" target="_blank" rel="noopener">
+          Geocoding and Network Analysis Using ArcGIS API for Python (DevSummit 2021)</a>
+      </li>
+    </ul>
+
+
+    <h3>ArcGIS Runtime APIs</h3>
+    <p>The ArcGIS Runtime APIs can be used to build mobile or desktop applications.  The iOS and Android APIs
+      support building applications for their respective mobile platforms, the Java API can be use to build desktop
+      applications for Windows or Linux, and the .Net and Qt APIs support building applications across both mobile
+      and desktop platforms.  ArcGIS Runtime applications can use either local geodatabases containing
+      transportation networks or map services with network analysis capability (NAServer services). The ArcGIS
+      Runtime API also includes classes to help in creating a navigation application. These classes
+      build on top of the network analysis functionality.
+    </p>
+
+    <h4>Official documentation</h4>
+    <ul>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/net/route-and-directions" rel="noopener" target="_blank">
+          Route and directions using the .NET API</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/android/route-and-directions" rel="noopener" target="_blank">
+          Route and directions using the Android API</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/java/route-and-directions" rel="noopener" target="_blank">
+          Route and directions using the Java API</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/qt/route-and-directions" rel="noopener" target="_blank">
+          Route and directions using the Qt API</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://developers.arcgis.com/ios/route-and-directions" rel="noopener" target="_blank">
+          Route and directions using the iOS API</a></li>
+    </ul>
+
+    <h4>Presentations</h4>
+    <ul>
+      <li>
+        <!--video icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16" aria-label="Video"><path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/></svg>
+        <a href="https://www.youtube.com/watch?v=BJ7s6_AfE74" target="_blank" rel="noopener">
+          ArcGIS Runtime: Network Analysis (DevSummit 2018)</a>
+      </li>
+      <li>
+        <!--video icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16" aria-label="Video"><path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/></svg>
+        <a href="https://youtu.be/KMbjgQYdhnU" target="_blank" rel="noopener">
+          ArcGIS Runtime: Routing and Navigation Tips and Tricks (DevSummit 2021)</a>
+      </li>
+      <li>
+        <!--video icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16" aria-label="Video"><path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/></svg>
+        <a href="https://www.youtube.com/watch?v=E48w7-yyEyg" target="_blank" rel="noopener">
+          ArcGIS Runtime SDKs: Building a Routing Application (DevSummit 2017)</a>
+      </li>
+      <li>
+        <!--video icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16" aria-label="Video"><path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/></svg>
+        <a href="https://www.youtube.com/watch?v=AFs_Oeb5RXA" target="_blank" rel="noopener">
+          ArcGIS Runtime: Introduction to the Navigation API (DevSummit 2020)</a>
+      </li>
+    </ul>
+
+    <h4>Examples</h4>
+    <ul>
+      <li>
+        <!--Code icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-code" viewBox="0 0 16 16"><path d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/></svg>
+        <a href="https://github.com/Esri/maps-app-dotnet" target="_blank" rel="noopener">
+          Maps App</a> sample app using the .NET Runtime API
+      </li>
+      <li>
+        <!--Code icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-code" viewBox="0 0 16 16"><path d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/></svg>
+        <a href="https://github.com/Esri/maps-app-ios" target="_blank" rel="noopener">
+          Maps App</a> sample app using the iOS Runtime API
+      </li>
+      <li>
+        <!--Code icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-code" viewBox="0 0 16 16"><path d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/></svg>
+        <a href="https://github.com/Esri/maps-app-android" target="_blank" rel="noopener">
+          Maps App</a> sample app using the Android Runtime API
+      </li>
+      <li>
+        <!--Code icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-code" viewBox="0 0 16 16"><path d="M6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0a.5.5 0 1 0-.708.708L10.293 8 8.646 9.646a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/></svg>
+        <a href="https://github.com/Esri/nearby-android" target="_blank" rel="noopener">
+          Nearby Places</a> sample app using the Android Runtime API
+      </li>
+    </ul>
+
+    <h3>ArcPy - ArcGIS Pro</h3>
+    <p>Network Analyst functionality in ArcGIS Pro can be accessed through Python using the arcpy.na
+      and the arcpy.nax modules. The arcpy.nax module is newer, whereas the arcpy.na module is our legacy
+      implementation.  The arcpy.nax is faster with a simpler API; however there are workflows where using
+      the arcpy.na module is needed.
+    </p>
+
+    <h4>Official documentation</h4>
+    <ul>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://pro.arcgis.com/en/pro-app/latest/arcpy/network-analyst/what-is-the-network-analyst-module.htm" rel="noopener" target="_blank">
+          arcpy.nax module</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://pro.arcgis.com/en/pro-app/latest/arcpy/network-analyst/what-is-network-analyst-module.htm" rel="noopener" target="_blank">
+          arcpy.na module</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="https://pro.arcgis.com/en/pro-app/latest/arcpy/network-analyst/choosing-between-the-two-modules-arcpy-nax-versus-arcpy-na-.htm" rel="noopener" target="_blank">
+          Choosing between arcpy.nax and arcpy.na</a></li>
+    </ul>
+
+    <h4>Presentations</h4>
+    <ul>
+      <li>
+        Python: Performing Transportation Network Analysis (DevSummit 2021)
+        <ul>
+          <li>
+            <!--video icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16" aria-label="Video"><path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/></svg>
+            <a href="https://www.esri.com/videos/watch?videoid=TZ5aYTcDvME" target="_blank" rel="noopener">
+            video</a>
+          </li>
+          <li>
+            <!--Download icon--><span class="icon-ui-download" aria-label="Download"></span>
+            <a href="https://arcg.is/0bnver0" target="_blank" rel="noopener">
+              presentation materials</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        ArcPy: Solving large transportation analysis problems (DevSummit 2021)
+        <ul>
+          <li>
+            <!--video icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16" aria-label="Video"><path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/></svg>
+            <a href="https://www.esri.com/videos/watch?videoid=iD79ckvczlE" target="_blank" rel="noopener">
+            video</a>
+          </li>
+          <li>
+            <!--Download icon--><span class="icon-ui-download" aria-label="Download"></span>
+            <a href="https://github.com/Esri/large-network-analysis-tools" target="_blank" rel="noopener">
+              presentation materials</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h4>Examples</h4>
+    <ul>
+      <li>
+        <!--Tool icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16" aria-label="Tool"><path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/></svg>
+        <a href="https://github.com/Esri/large-network-analysis-tools" target="_blank" rel="noopener">
+        Sample script tool for solving large problems in parallel</a></li>
+      <li>
+        <!--Tool icon--><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16" aria-label="Tool"><path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/></svg>
+        <a href="https://www.arcgis.com/home/item.html?id=b2227f745a6c4e1c94dd57810729d2a9" target="_blank" rel="noopener">
+          Find Network Subgraphs tool</a> - sample script tool that exports a network dataset to the networkx package
+          to identify disconnected network components</li>
+    </ul>
+
+
+    <h3>ArcGIS Enterprise SDK</h3>
+    <p>This SDK allows developers to extend the functionality of ArcGIS Enterprise through server object extensions
+      (SOEs) and server object interceptors (SOIs).  With the ArcGIS Enterprise 10.9.1 release, the ArcGIS
+      Enterprise SDK has expanded its interface to include access to network datasets, thus allowing SOEs and SOIs
+      to interact with these objects.
+    </p>
+
+    <h4>Official documentation</h4>
+    <ul>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="http://developer.esri.com/arcgis-enterprise-sdk/api-reference/net/INetworkDataset" rel="noopener" target="_blank">
+          .NET Network dataset support</a></li>
+      <li>
+        <!--Documentation icon--><span class="icon-ui-documentation" aria-label="Documentation"></span>
+        <a href="http://developer.esri.com/arcgis-enterprise-sdk/api-reference/java/INetworkDataset" rel="noopener" target="_blank">
+          Java Network dataset support</a></li>
+    </ul>
+
+  </div>
+<!-- Bottom content common to all pages-->
+</div>
+</div> <!-- close main section wrapper -->
+
+    <footer class="footer">
+      <div class="grid-container">
+        <div class="column-24">
+          <!-- AddToAny BEGIN -->
+          <div class="a2a_kit a2a_default_style">
+            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_email"></a>
+            <a class="a2a_button_whatsapp"></a>
+            <a class="a2a_button_sms"></a>
+            <a class="a2a_button_copy_link"></a>
+          </div>
+          <!-- AddToAny END -->
+          <p class="leader-1"><small>Need help with Network Analyst?
+            Ask a question on the
+            <a href="https://community.esri.com/t5/arcgis-network-analyst/ct-p/arcgis-network-analyst" rel="noopener" target="_blank">
+              Esri Community</a> or contact
+              <a href=https://support.esri.com/ rel="noopener" target="_blank">
+              Esri Support</a>.
+            </small></p>
+          <p class="leader-1"><small>Problem with this site?
+            Please log an issue (TODO: Add GitHub link)</small></p>
+          <div class="esri-logo"></div>
+          <p><small>Copyright © 2021 Esri. All rights reserved. | <a href="http://www.esri.com/legal/privacy">Privacy</a> | <a href="http://www.esri.com/legal">Legal</a></small></p>
+        </div>
+      </div>
+    </footer>
+
+<!-- get calcite-web js from the cdn (use latest version) -->
+<script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.0-rc.7/js/calcite-web.min.js"></script>
+
+<!-- interactive patterns need to be initialized -->
+<script>
+   calcite.init()
+</script>
+
+</body>
+</html>
