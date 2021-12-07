@@ -22,7 +22,7 @@ Currently, this repo hosts the [Network Analyst Resources website](https://esri.
 
 ## Issues
 
-Find a bug or want to request a new feature with one of the samples hosted here or the Network Analyst Resources website? Please let us know by submitting an issue.
+Find a bug or want to request a new feature with one of the samples hosted here? Find a problem with the Network Analyst Resources website? Please let us know by submitting an issue.
 
 Do NOT post issues here requesting general technical support for Network Analyst. If you need help, contact [Esri Support](https://support.esri.com/) or ask your question on the [Esri Community forums](https://community.esri.com/t5/arcgis-network-analyst/ct-p/arcgis-network-analyst).
 
