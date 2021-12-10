@@ -2,19 +2,7 @@
 
 This repo contains resources and code samples related to ArcGIS Network Analyst. It is also used to host the [Network Analyst Resources website](https://esri.github.io/network-analyst-resources/).
 
-Not all code samples and resources are hosted in this repo. Please visit the Network Analyst Resources website for a comprehensive list and links to everything.
-
-## Features
-
-Currently, this repo hosts the [Network Analyst Resources website](https://esri.github.io/network-analyst-resources/). We plan to add some code samples here later.
-
-## Instructions
-
-1. There is nothing to do here yet.
-
-## Requirements
-
-* There are no specific requirements yet.
+Not all code samples and resources are hosted in this repo. Please visit the Network Analyst Resources website for a comprehensive list of resources, links, instructions, and requirements.
 
 ## Resources
 
